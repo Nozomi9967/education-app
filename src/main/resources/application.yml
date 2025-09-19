@@ -1,0 +1,82 @@
+spring:
+  application:
+    name: education-app
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # 数据源配置
+  datasource:
+    # MySQL驱动，MySQL 8.x 版本使用 com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库连接地址格式：jdbc:mysql://主机:端口/数据库名称
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    # 数据库用户名
+    username: ${DB_USER}
+    # 数据库密码
+    password: ${DB_PASSWORD}
+
+  redis:
+    # 基本连接信息
+    host: ${RE_HOST}  # Redis服务器地址
+    port: 6379       # 端口，默认6379
+    password: ${RE_PASSWORD} # 密码（如果未设置则省略）
+    database: 0      # 数据库索引（默认0）
+
+    # 连接池配置（使用commons-pool2时生效）
+    lettuce:
+      pool:
+        max-active: 8    # 最大连接数
+        max-idle: 8      # 最大空闲连接
+        min-idle: 2      # 最小空闲连接
+        max-wait: 1000ms # 连接获取超时时间
+
+    # 超时设置
+    timeout: 5000ms     # 连接超时时间
+
+# MyBatis-Plus 配置（如果使用 MyBatis-Plus）
+mybatis-plus:
+  # mapper xml 文件位置
+  mapper-locations: classpath:mapper/**/*.xml
+  # 实体类别名
+  type-aliases-package: com.education.pojo.entity
+  configuration:
+    # 开启驼峰命名转换
+    map-underscore-to-camel-case: true
+    # 开启SQL日志打印（开发环境使用）
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+edu:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    secret-key: education
+    # 设置jwt过期时间
+    ttl: 720000000 # 正常为7200000
+    # 设置前端传递过来的令牌名称
+    token-name: token
+
+# 日志配置
+logging:
+  level:
+    # 根日志级别设为 INFO，平衡日志量与关键信息可见性
+    root: INFO
+    # 业务包日志级别设为 WARN，确保 warn 及更高级别日志输出
+    com.education: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+# 分词服务配置
+segment:
+  # 自定义词典路径（支持多个，用逗号分隔）
+  custom:
+    dictionaries: classpath:dic/education.dic,classpath:dic/program.dic
+  # 停用词文件路径
+  stopwords:
+    path: classpath:stopwords.txt
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    access-key-id: ${ALIBABA_ACCESS_KEY}
+    access-key-secret: ${ALIBABA_SECRET_KEY}
+    bucket-name: education-app-n
+

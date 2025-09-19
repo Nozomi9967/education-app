@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.CommentMapper">
+
+    <select id="pageComments" parameterType="map" resultType="com.education.pojo.vo.CommentVO">
+        select
+        c.id,
+        c.user_id,
+        c.content,
+        c.like_count,
+        c.create_time,
+        -- 判断当前用户是否关注了评论作者：存在则1，否则0
+        case
+        when exists (
+        select 1 from edu_follow
+        where follower_id = #{currentUserId}  -- 当前登录用户ID
+        and followed_id = c.user_id        -- 评论作者ID
+        ) then 1
+        else 0
+        end as is_followed
+        from
+        edu_post_comment c
+        -- 这里可以根据需要添加查询条件（如帖子ID、未删除等）
+        where
+        c.delete_time is null  -- 只查未删除的评论
+        and c.post_id = #{postId}
+        <if test="cursor != null">
+            and c.id &lt; #{cursor}  -- 游标分页条件（假设用ID倒序）
+        </if>
+        order by
+        c.create_time desc  -- 按评论时间倒序
+        limit #{pageSize}
+    </select>
+
+</mapper>

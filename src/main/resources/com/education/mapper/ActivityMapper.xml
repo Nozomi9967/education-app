@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.ActivityMapper">
+
+    <!-- 定义结果映射，将查询字段与ActivityDTO属性关联 -->
+    <resultMap id="ActivityDTOResultMap" type="com.education.pojo.dto.ActivityDTO">
+        <!-- 活动表字段映射 -->
+        <result column="activity_id" property="id"/>
+        <result column="activity_user_id" property="userId"/>
+        <result column="activity_interest_id" property="interestId"/>
+        <result column="activity_name" property="name"/>
+        <result column="activity_cover" property="cover"/>
+        <result column="activity_theme" property="theme"/>
+        <result column="activity_highlight" property="highlight"/>
+        <result column="activity_time" property="time"/>
+        <result column="activity_location" property="location"/>
+        <result column="activity_participate_method" property="participateMethod"/>
+        <result column="activity_event_flow" property="eventFlow"/>
+        <result column="activity_status" property="status"/>
+        <result column="activity_create_time" property="createTime"/>
+        <result column="activity_update_time" property="updateTime"/>
+
+        <!-- 兴趣圈表字段映射 -->
+        <result column="interest_name" property="interestName"/>
+    </resultMap>
+
+    <!-- 游标分页查询活动列表，使用cursor分页 -->
+    <select id="pageActivities" parameterType="map" resultMap="ActivityDTOResultMap">
+        SELECT
+        a.id AS activity_id,
+        a.user_id AS activity_user_id,
+        a.interest_id AS activity_interest_id,
+        a.name AS activity_name,
+        a.cover AS activity_cover,
+        a.theme AS activity_theme,
+        a.highlight AS activity_highlight,
+        a.time AS activity_time,
+        a.location AS activity_location,
+        a.participate_method AS activity_participate_method,
+        a.event_flow AS activity_event_flow,
+        a.status AS activity_status,
+        a.create_time AS activity_create_time,
+        a.update_time AS activity_update_time,
+        -- 兴趣圈表信息
+        i.name AS interest_name
+        FROM
+        edu_activity a
+        LEFT JOIN
+        edu_interest i ON a.interest_id = i.id AND i.delete_time IS NULL AND i.status = 1
+        WHERE
+        a.delete_time IS NULL
+        <!-- 雪花ID游标条件：如果cursor不为空，则查询小于该ID的记录 -->
+        <if test="cursor != null and cursor != ''">
+            AND a.id &lt; #{cursor}
+        </if>
+        <!-- 动态查询条件 -->
+        <if test="userId != null and userId != ''">
+            AND a.user_id = #{userId}
+        </if>
+        <if test="interestId != null">
+            AND a.interest_id = #{interestId}
+        </if>
+        <if test="name != null and name != ''">
+            AND a.name LIKE CONCAT('%', #{name}, '%')
+        </if>
+        <if test="status != null">
+            AND a.status = #{status}
+        </if>
+        <if test="startTime != null">
+            AND a.create_time &gt;= #{startTime}
+        </if>
+        <if test="endTime != null">
+            AND a.create_time &lt;= #{endTime}
+        </if>
+        -- 按ID降序排序，确保最新的活动在前
+        ORDER BY a.id DESC
+        -- 限制每页查询数量
+        LIMIT #{pageSize}
+    </select>
+
+</mapper>

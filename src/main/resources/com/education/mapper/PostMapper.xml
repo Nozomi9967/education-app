@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.PostMapper">
+
+    <!-- 定义结果映射，将查询字段与PostVO属性关联 -->
+    <resultMap id="PostVOResultMap" type="com.education.pojo.vo.PostVO">
+        <!-- 帖子表字段映射 -->
+        <result column="post_id" property="id"/>
+        <result column="post_title" property="title"/>
+        <result column="post_content" property="content"/>
+        <result column="like_count" property="likeCount"/>
+        <result column="comment_count" property="commentCount"/>
+        <result column="forward_count" property="forwardCount"/>
+        <result column="post_status" property="status"/>
+        <result column="post_create_time" property="createTime"/>
+
+        <!-- 用户表字段映射 -->
+        <result column="user_nickname" property="nickname"/>
+        <result column="user_avatar" property="avatar"/>
+        <result column="user_location" property="location"/>
+
+        <!-- 兴趣圈表字段映射 -->
+        <result column="interest_name" property="name"/>
+
+        <!-- 关注状态字段 -->
+        <result column="is_followed" property="isFollowed"/>
+    </resultMap>
+
+    <!-- 查询帖子详情，返回PostVO对象，包含关注状态 -->
+    <select id="queryPostDetail" parameterType="map" resultMap="PostVOResultMap">
+        SELECT
+            p.id AS post_id,
+            p.title AS post_title,
+            p.content AS post_content,
+            p.like_count AS like_count,
+            p.comment_count AS comment_count,
+            p.forward_count AS forward_count,
+            p.status AS post_status,
+            p.create_time AS post_create_time,
+            -- 用户表信息
+            u.nickname AS user_nickname,
+            u.avatar AS user_avatar,
+            u.location AS user_location,
+            -- 兴趣圈表信息
+            i.name AS interest_name,
+            -- 判断是否关注：存在记录则为1（已关注），否则为0
+            CASE
+                WHEN f.follower_id IS NOT NULL THEN 1
+                ELSE 0
+                END AS is_followed
+        FROM
+            edu_post p
+                LEFT JOIN
+            edu_user u ON p.user_id = u.id AND u.delete_time IS NULL
+                LEFT JOIN
+            edu_interest i ON p.interest_id = i.id AND i.delete_time IS NULL AND i.status = 1
+                -- 关联关注表，条件为当前用户关注了帖子作者
+                LEFT JOIN
+            edu_follow f ON f.follower_id = #{userId} AND f.followed_id = u.id
+        WHERE
+            p.id = #{postId} AND p.delete_time IS NULL
+    </select>
+
+
+    <!-- 定义分页查询结果映射，只包含PostRawVO需要的字段 -->
+    <resultMap id="PostRawVOResultMap" type="com.education.pojo.vo.PostRawVO">
+        <!-- 帖子表字段映射 -->
+        <result column="post_id" property="id"/>
+        <result column="post_title" property="title"/>
+        <result column="like_count" property="likeCount"/>
+        <result column="comment_count" property="commentCount"/>
+        <result column="forward_count" property="forwardCount"/>
+        <result column="post_create_time" property="createTime"/>
+
+        <!-- 用户表字段映射 -->
+        <result column="user_nickname" property="nickname"/>
+        <result column="user_avatar" property="avatar"/>
+
+        <!-- 关注状态字段 -->
+        <result column="is_followed" property="isFollowed"/>
+    </resultMap>
+
+    <!-- 分页查询帖子列表，使用cursor分页 -->
+    <select id="pagePosts" parameterType="map" resultMap="PostRawVOResultMap">
+        SELECT
+        p.id AS post_id,
+        p.title AS post_title,
+        p.like_count AS like_count,
+        p.comment_count AS comment_count,
+        p.forward_count AS forward_count,
+        p.create_time AS post_create_time,
+        -- 用户表信息
+        u.nickname AS user_nickname,
+        u.avatar AS user_avatar,
+        -- 判断是否关注：存在记录则为1（已关注），否则为0
+        CASE
+        WHEN f.follower_id IS NOT NULL THEN 1
+        ELSE 0
+        END AS is_followed
+        FROM
+        edu_post p
+        LEFT JOIN
+        edu_user u ON p.user_id = u.id AND u.delete_time IS NULL
+        -- 关联关注表，条件为当前用户关注了帖子作者
+        LEFT JOIN
+        edu_follow f ON f.follower_id = #{userId} AND f.followed_id = u.id
+        WHERE
+        p.delete_time IS NULL
+        <!-- 雪花ID游标条件：如果cursor不为空，则查询小于该ID的记录 -->
+        <if test="cursor != null and cursor != ''">
+            AND p.id &lt; #{cursor}
+        </if>
+        -- 按ID降序排序，确保最新的帖子在前
+        ORDER BY p.id DESC
+        -- 限制每页查询数量
+        LIMIT #{pageSize}
+    </select>
+
+</mapper>

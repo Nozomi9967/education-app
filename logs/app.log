@@ -1,0 +1,1180 @@
+2025-09-12 21:13:26.135 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-09-12 21:13:26.141 [main] INFO  c.education.EducationAppApplication - Starting EducationAppApplication using Java 17.0.15 on nozomi with PID 22844 (C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\target\classes started by q1948 in C:\Users\q1948\Desktop\App\Multimedia_contest\education_app)
+2025-09-12 21:13:26.142 [main] DEBUG c.education.EducationAppApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2025-09-12 21:13:26.143 [main] INFO  c.education.EducationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-12 21:13:26.395 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: accepted socket from [192.168.124.27:5915]
+2025-09-12 21:13:26.399 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.402 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.403 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.404 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.405 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.405 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.406 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.409 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.421 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.421 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.421 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.421 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.422 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.422 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.422 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.422 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:26.423 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.423 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.424 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:26.425 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  1, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:26.431 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.124.27: [192.168.124.27] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1088)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:640)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-09-12 21:13:26.438 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.438 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5fd72103: connectionId=rmi://192.168.124.27  1] closing.
+2025-09-12 21:13:26.439 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5fd72103: connectionId=rmi://192.168.124.27  1] closed.
+2025-09-12 21:13:26.892 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-09-12 21:13:26.894 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\target\classes\com\education\mapper\UserMapper.class]
+2025-09-12 21:13:26.895 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.education.mapper.UserMapper' mapperInterface
+2025-09-12 21:13:26.898 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-09-12 21:13:26.942 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 82
+2025-09-12 21:13:26.942 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.943 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.943 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.943 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.945 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.945 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.945 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.945 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:26.946 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:26.946 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.947 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.947 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:26.947 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  2, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:26.947 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.124.27: [192.168.124.27] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1088)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:640)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-09-12 21:13:26.949 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:26.949 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@707dbfa0: connectionId=rmi://192.168.124.27  2] closing.
+2025-09-12 21:13:26.949 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@707dbfa0: connectionId=rmi://192.168.124.27  2] closed.
+2025-09-12 21:13:27.072 [main] DEBUG o.a.c.core.AprLifecycleListener - The Apache Tomcat Native library could not be found using names [tcnative-1, libtcnative-1, tcnative-2, libtcnative-2] on the java.library.path [C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;.]. The errors reported were [Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\tcnative-1.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\libtcnative-1.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\tcnative-2.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\libtcnative-2.dll, no tcnative-1 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no libtcnative-1 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no tcnative-2 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no libtcnative-2 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;.]
+org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\tcnative-1.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\libtcnative-1.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\tcnative-2.dll, Can't load library: C:\Users\q1948\Desktop\App\Multimedia_contest\education_app\bin\libtcnative-2.dll, no tcnative-1 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no libtcnative-1 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no tcnative-2 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;., no libtcnative-2 in java.library.path: C:\Users\q1948\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk-11.0.17\jre\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\texlive\2023\bin\windows;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Go\bin;C:\Users\q1948\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\abo\Node.js\;C:\abo\apache-maven-3.6.3\bin;C:\abo\mysql-8.4.2-winx64\bin;C:\abo\Snipaste-2.9.2-Beta-x64;C:\abo\vnote;C:\Program Files\Common Files\Oracle\Java\javapath;C:\abo\Anaconda;C:\abo\Anaconda\Scripts;C:\abo\Anaconda\Library\usr;C:\abo\Anaconda\Library\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;c:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\7-Zip;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\q1948\AppData\Local\Programs\Python\Python312\;C:\Users\q1948\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\q1948\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\q1948\.dotnet\tools;C:\Users\q1948\go\bin;C:\Users\q1948\AppData\Roaming\npm;C:\abo\mysql-8.4.2-winx64\bin;C:\Users\q1948\AppData\Local\Programs\cursor\resources\app\bin;.
+	at org.apache.tomcat.jni.Library.<init>(Library.java:94)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:235)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:194)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getDefaultServerLifecycleListeners(TomcatServletWebServerFactory.java:182)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.<init>(TomcatServletWebServerFactory.java:129)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:585)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.education.EducationAppApplication.main(EducationAppApplication.java:16)
+2025-09-12 21:13:27.171 [main] DEBUG o.a.tomcat.util.compat.Jre19Compat - Class not found so assuming code is running on a pre-Java 19 JVM
+java.lang.ClassNotFoundException: java.lang.WrongThreadException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.apache.tomcat.util.compat.Jre19Compat.<clinit>(Jre19Compat.java:37)
+	at org.apache.tomcat.util.compat.JreCompat.<clinit>(JreCompat.java:74)
+	at org.apache.catalina.startup.Tomcat.<clinit>(Tomcat.java:1302)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:194)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:585)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.education.EducationAppApplication.main(EducationAppApplication.java:16)
+2025-09-12 21:13:27.171 [main] DEBUG o.a.tomcat.util.compat.Jre21Compat - Class not found so assuming code is running on a pre-Java 21 JVM
+java.lang.ClassNotFoundException: java.lang.Thread$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.apache.tomcat.util.compat.Jre21Compat.<clinit>(Jre21Compat.java:43)
+	at org.apache.tomcat.util.compat.JreCompat.<clinit>(JreCompat.java:74)
+	at org.apache.catalina.startup.Tomcat.<clinit>(Tomcat.java:1302)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:194)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:585)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.education.EducationAppApplication.main(EducationAppApplication.java:16)
+2025-09-12 21:13:27.171 [main] DEBUG o.a.tomcat.util.compat.Jre22Compat - Class not found so assuming code is running on a pre-Java 22 JVM
+java.lang.ClassNotFoundException: java.lang.foreign.MemorySegment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.apache.tomcat.util.compat.Jre22Compat.<clinit>(Jre22Compat.java:40)
+	at org.apache.tomcat.util.compat.JreCompat.<clinit>(JreCompat.java:74)
+	at org.apache.catalina.startup.Tomcat.<clinit>(Tomcat.java:1302)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:194)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:585)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.education.EducationAppApplication.main(EducationAppApplication.java:16)
+2025-09-12 21:13:27.210 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8080)
+2025-09-12 21:13:27.217 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2025-09-12 21:13:27.217 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2025-09-12 21:13:27.219 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2025-09-12 21:13:27.219 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2025-09-12 21:13:27.227 [main] DEBUG o.apache.catalina.core.ContainerBase - Add child StandardHost[localhost] StandardEngine[Tomcat]
+2025-09-12 21:13:27.240 [main] DEBUG o.apache.catalina.core.ContainerBase - Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2025-09-12 21:13:27.242 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-09-12 21:13:27.249 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2025-09-12 21:13:27.250 [main] DEBUG o.a.tomcat.util.IntrospectionUtils - IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2025-09-12 21:13:27.251 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-12 21:13:27.251 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-09-12 21:13:27.253 [main] DEBUG o.a.catalina.core.StandardContext - Starting ROOT
+2025-09-12 21:13:27.260 [main] DEBUG o.a.catalina.core.StandardContext - Configuring default Resources
+2025-09-12 21:13:27.292 [main] DEBUG o.a.catalina.core.StandardContext - Processing standard container startup
+2025-09-12 21:13:27.292 [main] DEBUG o.a.catalina.loader.WebappLoader - Starting this Loader
+2025-09-12 21:13:27.343 [main] DEBUG o.a.c.a.AuthenticatorBase - No SingleSignOn Valve is present
+2025-09-12 21:13:27.343 [main] DEBUG o.a.catalina.core.StandardContext - No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2025-09-12 21:13:27.348 [main] DEBUG o.a.catalina.core.StandardContext - Configured a manager of class [org.apache.catalina.session.StandardManager]
+2025-09-12 21:13:27.353 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-12 21:13:27.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1171 ms
+2025-09-12 21:13:27.369 [main] DEBUG o.apache.catalina.core.ContainerBase - Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2025-09-12 21:13:27.382 [main] DEBUG o.a.catalina.core.StandardContext - Configuring application event listeners
+2025-09-12 21:13:27.383 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] - Sending application start events
+2025-09-12 21:13:27.384 [main] DEBUG o.a.catalina.session.StandardManager - Start: Loading persisted sessions
+2025-09-12 21:13:27.385 [main] DEBUG o.a.catalina.session.StandardManager - Loading persisted sessions from [SESSIONS.ser]
+2025-09-12 21:13:27.385 [main] DEBUG o.a.catalina.session.StandardManager - No persisted data file found
+2025-09-12 21:13:27.385 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] - Starting filters
+2025-09-12 21:13:27.385 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] -  Starting filter 'requestContextFilter'
+2025-09-12 21:13:27.388 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] -  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2025-09-12 21:13:27.388 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] -  Starting filter 'characterEncodingFilter'
+2025-09-12 21:13:27.388 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] -  Starting filter 'springSecurityFilterChain'
+2025-09-12 21:13:27.388 [main] DEBUG o.a.c.c.C.[Tomcat].[localhost].[/] -  Starting filter 'formContentFilter'
+2025-09-12 21:13:27.388 [main] DEBUG o.a.catalina.core.StandardContext - Starting completed
+2025-09-12 21:13:27.390 [main] DEBUG org.apache.catalina.mapper.Mapper - Registered host [localhost]
+2025-09-12 21:13:27.391 [main] DEBUG o.a.catalina.mapper.MapperListener - Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2025-09-12 21:13:27.391 [main] DEBUG o.a.catalina.mapper.MapperListener - Register Context [] for service [StandardService[Tomcat]]
+2025-09-12 21:13:27.391 [main] DEBUG o.a.catalina.mapper.MapperListener - Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2025-09-12 21:13:27.443 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5e481248
+2025-09-12 21:13:27.450 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 82
+2025-09-12 21:13:27.451 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.452 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.453 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.453 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.453 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.453 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.454 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.454 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.454 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:27.454 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.456 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.456 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:27.456 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  3, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:27.457 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.124.27: [192.168.124.27] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1088)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:640)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-09-12 21:13:27.458 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.459 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7f241fd3: connectionId=rmi://192.168.124.27  3] closing.
+2025-09-12 21:13:27.459 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7f241fd3: connectionId=rmi://192.168.124.27  3] closed.
+2025-09-12 21:13:27.501 [main] DEBUG c.b.m.e.s.MybatisSqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-09-12 21:13:27.723 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2025-09-12 21:13:27.725 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+2025-09-12 21:13:27.725 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+2025-09-12 21:13:27.725 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>}
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-09-12 21:13:27.726 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+2025-09-12 21:13:27.727 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+2025-09-12 21:13:27.727 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:mysql://localhost:3306/education_app?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+2025-09-12 21:13:27.728 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"root"
+2025-09-12 21:13:27.729 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+2025-09-12 21:13:27.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-12 21:13:27.831 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1322b575
+2025-09-12 21:13:27.832 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-12 21:13:27.942 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-09-12 21:13:27.947 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13aee177
+2025-09-12 21:13:27.952 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5293eb4c
+2025-09-12 21:13:27.955 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@630bdd3f
+2025-09-12 21:13:27.961 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 82
+2025-09-12 21:13:27.962 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32bc1403
+2025-09-12 21:13:27.962 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.963 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.964 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:27.965 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:27.966 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.969 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.969 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:27.970 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  4, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:27.970 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5970fdd2
+2025-09-12 21:13:27.970 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.124.27: [192.168.124.27] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1088)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:640)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-09-12 21:13:27.972 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:27.973 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7aea42fc: connectionId=rmi://192.168.124.27  4] closing.
+2025-09-12 21:13:27.973 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7aea42fc: connectionId=rmi://192.168.124.27  4] closed.
+2025-09-12 21:13:27.975 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36f24a16
+2025-09-12 21:13:27.979 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57ba9f8f
+2025-09-12 21:13:27.982 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e9500d6
+2025-09-12 21:13:27.989 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cf8ad58
+2025-09-12 21:13:27.989 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:13:28.107 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.e.c.AuthController:
+	{POST [/auth/regis]}: register(RegisDTO)
+	{POST [/auth/login]}: login(LoginDTO)
+2025-09-12 21:13:28.108 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-09-12 21:13:28.110 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+2025-09-12 21:13:28.112 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-09-12 21:13:28.115 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-09-12 21:13:28.186 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 865627a5-9121-40e2-b77c-950c0a87cff4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12 21:13:28.269 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@775c4054, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b2e931, org.springframework.security.web.context.SecurityContextPersistenceFilter@75bf9e67, org.springframework.security.web.header.HeaderWriterFilter@fbbd90c, org.springframework.security.web.authentication.logout.LogoutFilter@25b4754a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@772f3a3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3caa4d85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@305881b8, org.springframework.security.web.session.SessionManagementFilter@538e74fc, org.springframework.security.web.access.ExceptionTranslationFilter@45e639ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@185339ed]
+2025-09-12 21:13:28.422 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-09-12 21:13:28.424 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-09-12 21:13:28.435 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-09-12 21:13:28.473 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 82
+2025-09-12 21:13:28.475 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.476 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.476 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.476 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.476 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.476 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.477 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.477 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.477 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:28.478 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.478 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.478 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:28.478 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  5, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:28.481 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.481 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@24e931aa: connectionId=rmi://192.168.124.27  5] closing.
+2025-09-12 21:13:28.481 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@24e931aa: connectionId=rmi://192.168.124.27  5] closed.
+2025-09-12 21:13:28.517 [http-nio-8080-Acceptor] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting up[http-nio-8080-Acceptor] latch=0
+2025-09-12 21:13:28.518 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-12 21:13:28.519 [main] DEBUG s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2025-09-12 21:13:28.519 [main] DEBUG s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2025-09-12 21:13:28.526 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Total number of request handlers 9
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /auth/login, WebMvcRequestHandler{requestMapping={POST [/auth/login]}, handlerMethod=com.education.controller.AuthController#login(LoginDTO), key=RequestHandlerKey{pathMappings=[/auth/login], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /auth/regis, WebMvcRequestHandler{requestMapping={POST [/auth/regis]}, handlerMethod=com.education.controller.AuthController#register(RegisDTO), key=RequestHandlerKey{pathMappings=[/auth/regis], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /error, WebMvcRequestHandler{requestMapping={ [/error]}, handlerMethod=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest), key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /error, WebMvcRequestHandler{requestMapping={ [/error], produces [text/html]}, handlerMethod=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse), key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /swagger-resources, WebMvcRequestHandler{requestMapping={GET [/swagger-resources], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#swaggerResources(), key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /swagger-resources/configuration/security, WebMvcRequestHandler{requestMapping={GET [/swagger-resources/configuration/security], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#securityConfiguration(), key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /swagger-resources/configuration/ui, WebMvcRequestHandler{requestMapping={GET [/swagger-resources/configuration/ui], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#uiConfiguration(), key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /v2/api-docs, WebMvcRequestHandler{requestMapping={GET [/v2/api-docs], produces [application/json || application/hal+json]}, handlerMethod=springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest), key=RequestHandlerKey{pathMappings=[/v2/api-docs], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2025-09-12 21:13:28.527 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: /v3/api-docs, WebMvcRequestHandler{requestMapping={GET [/v3/api-docs], produces [application/json || application/hal+json]}, handlerMethod=springfox.documentation.oas.web.OpenApiControllerWebMvc#getDocumentation(String, HttpServletRequest), key=RequestHandlerKey{pathMappings=[/v3/api-docs], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2025-09-12 21:13:28.532 [main] DEBUG s.d.s.w.p.DefaultRequestHandlerCombiner - Combined number of request handlers 9
+2025-09-12 21:13:28.533 [main] DEBUG s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2025-09-12 21:13:28.540 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lcom/education/result/Result;
+2025-09-12 21:13:28.541 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.542 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcom/education/pojo/dto/LoginDTO;
+2025-09-12 21:13:28.542 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.543 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.560 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property msg
+2025-09-12 21:13:28.563 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.564 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'msg' renamed to 'msg'
+2025-09-12 21:13:28.564 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property msg to model
+2025-09-12 21:13:28.564 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.564 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.564 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.565 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.568 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.568 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property code
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property code to model
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.570 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.570 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property data
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property data to model
+2025-09-12 21:13:28.570 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.571 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.571 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.571 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.572 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.572 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.574 [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 3 properties. Properties found msg, code, data
+2025-09-12 21:13:28.575 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.575 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: com.education.result.Result, name: Result
+2025-09-12 21:13:28.576 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.580 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.580 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.580 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.580 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.581 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property username
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property username to model
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.582 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.582 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.582 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.582 [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 2 properties. Properties found password, username
+2025-09-12 21:13:28.582 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: com.education.pojo.dto.LoginDTO, name: LoginDTO
+2025-09-12 21:13:28.582 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.582 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lcom/education/result/Result;
+2025-09-12 21:13:28.584 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.584 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcom/education/pojo/dto/LoginDTO;
+2025-09-12 21:13:28.584 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.584 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |login|
+2025-09-12 21:13:28.584 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.585 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property msg
+2025-09-12 21:13:28.585 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.585 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'msg' renamed to 'msg'
+2025-09-12 21:13:28.585 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property msg to model
+2025-09-12 21:13:28.585 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.587 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getMsg
+2025-09-12 21:13:28.588 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.588 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.588 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property code
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property code to model
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2025-09-12 21:13:28.589 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.589 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property data
+2025-09-12 21:13:28.589 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.590 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2025-09-12 21:13:28.590 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property data to model
+2025-09-12 21:13:28.590 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.590 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2025-09-12 21:13:28.590 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.590 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.590 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Inferred 3 properties. Properties found msg, code, data
+2025-09-12 21:13:28.591 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.594 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.594 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.594 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.594 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.594 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property username
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property username to model
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2025-09-12 21:13:28.595 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.595 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.595 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.595 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Inferred 2 properties. Properties found password, username
+2025-09-12 21:13:28.595 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.598 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.600 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method login at path /auth/login
+2025-09-12 21:13:28.600 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter loginDTO
+2025-09-12 21:13:28.606 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.606 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: LoginDTO, with model id: 0_1_com.education.pojo.dto.LoginDTO
+2025-09-12 21:13:28.606 [main] DEBUG s.b.v.p.p.SizeAnnotationPlugin - searching for @size: false
+2025-09-12 21:13:28.608 [main] DEBUG Validator - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-09-12 21:13:28.611 [main] DEBUG s.d.s.w.r.o.ContentParameterAggregator - Aggregating content parameters from parameters: loginDTO
+2025-09-12 21:13:28.611 [main] DEBUG s.d.s.w.r.o.ContentParameterAggregator - Post content aggregation parameters: loginDTO
+2025-09-12 21:13:28.611 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 0_0_com.education.result.Result
+2025-09-12 21:13:28.611 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Result
+2025-09-12 21:13:28.612 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Result
+2025-09-12 21:13:28.613 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+2025-09-12 21:13:28.615 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method login
+2025-09-12 21:13:28.621 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lcom/education/result/Result;
+2025-09-12 21:13:28.621 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.622 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcom/education/pojo/dto/RegisDTO;
+2025-09-12 21:13:28.622 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.622 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.622 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: com.education.result.Result, name: Result
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.623 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.625 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.625 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.625 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.625 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property verifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'verifyCode' renamed to 'verifyCode'
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property verifyCode to model
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.626 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.626 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property phone
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'phone' renamed to 'phone'
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property phone to model
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.626 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.626 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.627 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.627 [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 3 properties. Properties found password, verifyCode, phone
+2025-09-12 21:13:28.627 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: com.education.pojo.dto.RegisDTO, name: RegisDTO
+2025-09-12 21:13:28.627 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lcom/education/result/Result;
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcom/education/pojo/dto/RegisDTO;
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.627 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |register|
+2025-09-12 21:13:28.628 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2025-09-12 21:13:28.628 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.628 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.628 [main] DEBUG s.b.v.plugins.RangeAnnotations - @Size detected: adding MinLength/MaxLength to field
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property verifyCode
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'verifyCode' renamed to 'verifyCode'
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property verifyCode to model
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.628 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setVerifyCode
+2025-09-12 21:13:28.629 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.629 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property phone
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'phone' renamed to 'phone'
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property phone to model
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped setter for member setPhone
+2025-09-12 21:13:28.629 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.629 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.629 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Inferred 3 properties. Properties found password, verifyCode, phone
+2025-09-12 21:13:28.629 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.629 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 1_0_com.education.result.Result
+2025-09-12 21:13:28.630 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method register at path /auth/regis
+2025-09-12 21:13:28.630 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter regisDTO
+2025-09-12 21:13:28.630 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.630 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: RegisDTO, with model id: 1_1_com.education.pojo.dto.RegisDTO
+2025-09-12 21:13:28.630 [main] DEBUG s.b.v.p.p.SizeAnnotationPlugin - searching for @size: false
+2025-09-12 21:13:28.630 [main] DEBUG Validator - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-09-12 21:13:28.631 [main] DEBUG s.d.s.w.r.o.ContentParameterAggregator - Aggregating content parameters from parameters: regisDTO
+2025-09-12 21:13:28.631 [main] DEBUG s.d.s.w.r.o.ContentParameterAggregator - Post content aggregation parameters: regisDTO
+2025-09-12 21:13:28.631 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Result, with model id: 1_0_com.education.result.Result
+2025-09-12 21:13:28.631 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Result
+2025-09-12 21:13:28.632 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Result
+2025-09-12 21:13:28.632 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method register
+2025-09-12 21:13:28.632 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method register
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.644 [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2025-09-12 21:13:28.644 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2025-09-12 21:13:28.645 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.645 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.645 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2025-09-12 21:13:28.645 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2025-09-12 21:13:28.646 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.647 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.648 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.648 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.648 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.648 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.648 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.648 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.648 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.648 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.648 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.649 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.649 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.649 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.651 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.651 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.651 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.652 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.652 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.652 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.654 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.654 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.654 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.654 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.655 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.657 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.658 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.658 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.658 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.658 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.658 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.658 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.658 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.658 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.659 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.659 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.659 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.659 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.659 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.659 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.660 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.660 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.660 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.660 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.660 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.660 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.660 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.661 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.661 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.662 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.662 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.662 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.662 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.662 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.662 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.662 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.663 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.663 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.665 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.665 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.665 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.665 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.665 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method error at path /error
+2025-09-12 21:13:28.665 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: Map, with model id: 2_0_java.util.Map<java.lang.String,java.lang.Object>
+2025-09-12 21:13:28.666 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.666 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method error
+2025-09-12 21:13:28.666 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2025-09-12 21:13:28.667 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.667 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.667 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property reference
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property reference to model
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.669 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property view
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property view to model
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property viewName
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property viewName to model
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.670 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property model
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property model to model
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.671 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.671 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property modelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.671 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.671 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelMap, with model id: 3_0_org.springframework.ui.ModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelMap, with model id: 3_0_org.springframework.ui.ModelMap
+2025-09-12 21:13:28.671 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property status
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property status to model
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.672 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.673 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.673 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property empty
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property empty to model
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.673 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.675 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.675 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 7 properties. Properties found reference, view, viewName, model, modelMap, empty, status
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: org.springframework.web.servlet.ModelAndView, name: ModelAndView
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelMap, with model id: 3_0_org.springframework.ui.ModelMap
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2025-09-12 21:13:28.675 [main] DEBUG s.d.s.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2025-09-12 21:13:28.675 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property contentType
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property contentType to model
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.676 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.676 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.676 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.676 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.677 [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2025-09-12 21:13:28.677 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.677 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2025-09-12 21:13:28.677 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2025-09-12 21:13:28.678 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property reference
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property reference to model
+2025-09-12 21:13:28.678 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.679 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2025-09-12 21:13:28.679 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.679 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.679 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property view
+2025-09-12 21:13:28.679 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property view to model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.680 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property viewName
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property viewName to model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property model to model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property modelMap
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property status
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property status to model
+2025-09-12 21:13:28.680 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.681 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2025-09-12 21:13:28.682 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.682 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property empty
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property empty to model
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2025-09-12 21:13:28.682 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.682 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.682 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Inferred 7 properties. Properties found reference, view, viewName, model, modelMap, empty, status
+2025-09-12 21:13:28.682 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.683 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property contentType
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property contentType to model
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2025-09-12 21:13:28.683 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding allowable Values: <none>
+2025-09-12 21:13:28.683 [main] DEBUG s.b.v.p.s.MinMaxAnnotationPlugin - Adding numeric element facet : <none>
+2025-09-12 21:13:28.683 [main] DEBUG s.d.s.DefaultModelSpecificationProvider - Inferred 1 properties. Properties found contentType
+2025-09-12 21:13:28.685 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: View, with model id: 3_0_org.springframework.web.servlet.View
+2025-09-12 21:13:28.685 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.685 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.685 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.685 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.686 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.686 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.686 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.688 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.688 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.688 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.688 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.689 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.689 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.689 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.689 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.689 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.690 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.690 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.690 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.691 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.691 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.691 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.691 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.691 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.691 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.691 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.692 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.692 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.692 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.693 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.693 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.693 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.693 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.695 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Reading parameters for method errorHtml at path /error
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter request
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.w.r.o.OperationParameterReader - Processing parameter response
+2025-09-12 21:13:28.695 [main] DEBUG s.d.schema.TypeNameExtractor - Generated unique model named: ModelAndView, with model id: 3_0_org.springframework.web.servlet.ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.695 [main] DEBUG s.d.s.r.o.OpenApiOperationAuthReader - Authorization count 0 for method errorHtml
+2025-09-12 21:13:28.707 [main] INFO  c.education.EducationAppApplication - Started EducationAppApplication in 2.881 seconds (JVM running for 3.376)
+2025-09-12 21:13:28.709 [main] DEBUG c.b.m.a.DdlApplicationRunner -   ...  DDL start create  ...  
+2025-09-12 21:13:28.711 [main] DEBUG c.b.m.a.DdlApplicationRunner -   ...  DDL end create  ...  
+2025-09-12 21:13:28.983 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 82
+2025-09-12 21:13:28.985 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.986 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:28.987 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.987 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.987 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:28.987 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  6, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2025-09-12 21:13:28.988 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.988 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@34010be2: connectionId=rmi://192.168.124.27  6] closing.
+2025-09-12 21:13:28.988 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@34010be2: connectionId=rmi://192.168.124.27  6] closed.
+2025-09-12 21:13:28.988 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.989 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.989 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.990 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:28.991 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.991 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.992 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:28.992 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:28.993 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = ""
+2025-09-12 21:13:28.993 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = ""
+2025-09-12 21:13:28.993 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  7 unwrapping params with MBean extended ClassLoader.
+2025-09-12 21:13:28.994 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.995 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  7, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=getProperty, signature=[java.lang.String]
+2025-09-12 21:13:28.995 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.995 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5623f104: connectionId=rmi://192.168.124.27  7] closing.
+2025-09-12 21:13:28.995 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5623f104: connectionId=rmi://192.168.124.27  7] closed.
+2025-09-12 21:13:28.996 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.997 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:28.998 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:28.999 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:28.999 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.000 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.000 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:29.000 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = ""
+2025-09-12 21:13:29.001 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = ""
+2025-09-12 21:13:29.001 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8 unwrapping params with MBean extended ClassLoader.
+2025-09-12 21:13:29.002 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.002 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=getProperty, signature=[java.lang.String]
+2025-09-12 21:13:29.008 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.008 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.008 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:29.009 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = ""
+2025-09-12 21:13:29.009 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = ""
+2025-09-12 21:13:29.009 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8 unwrapping params with MBean extended ClassLoader.
+2025-09-12 21:13:29.009 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.009 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=getProperty, signature=[java.lang.String]
+2025-09-12 21:13:29.010 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.010 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.010 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:29.010 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = ""
+2025-09-12 21:13:29.010 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = ""
+2025-09-12 21:13:29.011 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8 unwrapping params with MBean extended ClassLoader.
+2025-09-12 21:13:29.011 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.011 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=getProperty, signature=[java.lang.String]
+2025-09-12 21:13:29.012 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.012 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.012 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:29.012 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[B", codebase = ""
+2025-09-12 21:13:29.012 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = ""
+2025-09-12 21:13:29.013 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8 unwrapping params with MBean extended ClassLoader.
+2025-09-12 21:13:29.013 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.124.27: name = "[Ljava.lang.String;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.013 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  8, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=getProperty, signature=[java.lang.String]
+2025-09-12 21:13:29.013 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.014 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@54a7f54b: connectionId=rmi://192.168.124.27  8] closing.
+2025-09-12 21:13:29.014 [RMI TCP Connection(1)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@54a7f54b: connectionId=rmi://192.168.124.27  8] closed.
+2025-09-12 21:13:29.015 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: accepted socket from [192.168.124.27:5926]
+2025-09-12 21:13:29.015 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.018 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.018 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.018 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.018 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.018 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.019 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.019 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:29.019 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 84
+2025-09-12 21:13:29.019 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.020 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.020 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.020 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "java.rmi.MarshalledObject", codebase = ""
+2025-09-12 21:13:29.020 [RMI TCP Connection(2)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  9 unwrapping query with defaultClassLoader.
+2025-09-12 21:13:29.020 [RMI TCP Connection(2)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  9, name=:application=*, query=java.rmi.MarshalledObject@d
+2025-09-12 21:13:29.022 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.022 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.124.27: name = "javax.management.ObjectName", codebase = ""
+2025-09-12 21:13:29.022 [RMI TCP Connection(2)-192.168.124.27] DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.124.27  9, name=DefaultDomain:application=, attribute=SnapshotAsJson
+2025-09-12 21:13:29.028 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:29.029 [RMI TCP Connection(2)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@42d61201: connectionId=rmi://192.168.124.27  9] closing.
+2025-09-12 21:13:29.029 [RMI TCP Connection(2)-192.168.124.27] DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@42d61201: connectionId=rmi://192.168.124.27  9] closed.
+2025-09-12 21:13:55.063 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: (port 5914) connection closed
+2025-09-12 21:13:55.063 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: (port 5914) connection closed
+2025-09-12 21:13:55.063 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: close connection, socket: Socket[addr=/192.168.124.27,port=5926,localport=5914]
+2025-09-12 21:13:55.063 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: close connection, socket: Socket[addr=/192.168.124.27,port=5915,localport=5914]
+2025-09-12 21:13:55.065 [RMI TCP Connection(1)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.124.27: socket close: Socket[addr=/192.168.124.27,port=5915,localport=5914]
+2025-09-12 21:13:55.065 [RMI TCP Connection(2)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.124.27: socket close: Socket[addr=/192.168.124.27,port=5926,localport=5914]
+2025-09-12 21:13:55.077 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-192.168.124.27: accepted socket from [192.168.124.27:6392]
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-192.168.124.27: (port 5914) op = 80
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(3)-192.168.124.27: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(3)-192.168.124.27: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(3)-192.168.124.27: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(3)-192.168.124.27: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:55.078 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.loader - RMI TCP Connection(3)-192.168.124.27: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@45d775e3
+2025-09-12 21:13:57.942 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:13:57.944 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-12 21:14:11.413 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-192.168.124.27: (port 5914) connection closed
+2025-09-12 21:14:11.414 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-192.168.124.27: close connection, socket: Socket[addr=/192.168.124.27,port=6392,localport=5914]
+2025-09-12 21:14:11.415 [RMI TCP Connection(3)-192.168.124.27] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-192.168.124.27: socket close: Socket[addr=/192.168.124.27,port=6392,localport=5914]
+2025-09-12 21:14:27.428 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1757682867427 sessioncount 0
+2025-09-12 21:14:27.429 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 2 expired sessions: 0
+2025-09-12 21:14:27.959 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:14:27.959 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-12 21:14:57.972 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:14:57.972 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-12 21:15:27.477 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1757682927477 sessioncount 0
+2025-09-12 21:15:27.478 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 1 expired sessions: 0
+2025-09-12 21:15:27.982 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:15:27.983 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-12 21:15:38.113 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-12 21:15:38.113 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-12 21:15:38.114 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1322b575: (connection evicted)
+2025-09-12 21:15:38.119 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13aee177: (connection evicted)
+2025-09-12 21:15:38.119 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5293eb4c: (connection evicted)
+2025-09-12 21:15:38.119 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@630bdd3f: (connection evicted)
+2025-09-12 21:15:38.119 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32bc1403: (connection evicted)
+2025-09-12 21:15:38.119 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5970fdd2: (connection evicted)
+2025-09-12 21:15:38.120 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36f24a16: (connection evicted)
+2025-09-12 21:15:38.120 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57ba9f8f: (connection evicted)
+2025-09-12 21:15:38.120 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e9500d6: (connection evicted)
+2025-09-12 21:15:38.120 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cf8ad58: (connection evicted)
+2025-09-12 21:15:38.120 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-12 21:15:38.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.InterestMapper">
+
+    <select id="queryByName" parameterType="String" resultType="com.education.pojo.vo.InterestRawVO">
+        select
+        i.id,
+        i.name,
+        i.avatar,
+        i.participate_count,
+        ifo.create_time as follow_time
+        from
+        edu_interest i
+        left join
+        edu_interest_follow ifo on i.id = ifo.interest_id
+        where
+        i.status = 1 and i.delete_time is null
+        <if test="name != '' and name != null">
+            and i.name like #{name}
+        </if>
+        <!-- 核心调整：多字段排序 -->
+        order by
+        ifo.create_time is null,  -- 让有 followTime 的记录排在前面（非 NULL 在前）
+        ifo.create_time asc,      -- 有 followTime 时，按时间升序（越早越前）
+        i.participate_count desc  -- 最后按参与人数降序
+    </select>
+
+</mapper>

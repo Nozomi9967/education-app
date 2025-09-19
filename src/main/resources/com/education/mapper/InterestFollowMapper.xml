@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.InterestFollowMapper">
+
+    <select id="myInterest" parameterType="String" resultType="com.education.pojo.vo.InterestRawVO">
+        select
+            i.id,
+            i.name,
+            i.avatar,
+            i.participate_count,
+            ipo.create_time as follow_time
+        from
+            edu_interest_follow ipo
+        left join
+            edu_interest i on ipo.interest_id = i.id
+        where
+            ipo.user_id = #{currentUserId} and i.status = 1 and i.delete_time is  null
+        order by
+            ipo.create_time asc ,
+            i.participate_count desc
+    </select>
+
+
+</mapper>

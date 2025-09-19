@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.education.mapper.CourseMapper">
+
+    <select id="getCourseVOById" parameterType="Long" resultType="com.education.pojo.vo.CourseVO">
+        select
+            c.*,
+            eu.nickname as creator_nickname,
+            ei.name as interest_name
+        from edu_course c
+        left join education_app.edu_interest ei on c.interest_id = ei.id
+        left join education_app.edu_user eu on c.user_id = eu.id
+        where c.delete_time is null and c.id = #{id}
+    </select>
+
+</mapper>
