@@ -1,12 +1,14 @@
 package com.education.interceptor;
 
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.filter.OncePerRequestFilter;
+import com.education.context.BaseContext;
 import com.education.properties.JwtProperties;
 import com.education.util.JwtUtil;
-import com.education.context.BaseContext;
 import io.jsonwebtoken.Claims;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
+import org.springframework.web.filter.OncePerRequestFilter;
+
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +18,7 @@ import java.io.IOException;
 /**
  * JWT认证过滤器：拦截请求并解析令牌
  */
+@Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtProperties jwtProperties;

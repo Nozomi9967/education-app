@@ -2,12 +2,12 @@ package com.education.controller;
 
 import com.education.pojo.dto.InsertCourseDTO;
 import com.education.pojo.dto.UpdateCourseDTO;
+import com.education.pojo.vo.CourseJoinVO;
 import com.education.pojo.vo.CourseVO;
 import com.education.result.Result;
 import com.education.service.CourseService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -78,4 +78,12 @@ public class CourseController {
         log.info("加入课程: {}", courseId);
         return courseService.joinCourse(courseId);
     }
+
+    @GetMapping("/myjoin")
+    @Operation(summary = "查询当前用户参加的课程")
+    public Result<List<CourseJoinVO>> getMyJoinCourses() {
+        log.info("用户查询参加的课程");
+        return courseService.myJoinCourse();
+    }
+
 }

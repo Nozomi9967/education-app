@@ -10,6 +10,7 @@ import com.education.pojo.dto.InsertCourseDTO;
 import com.education.pojo.dto.UpdateCourseDTO;
 import com.education.pojo.entity.Course;
 import com.education.pojo.entity.UserCourse;
+import com.education.pojo.vo.CourseJoinVO;
 import com.education.pojo.vo.CourseVO;
 import com.education.result.Result;
 import com.education.service.CourseService;
@@ -199,5 +200,11 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 
         CourseVO courseVOById = courseMapper.getCourseVOById(id);
         return Result.success(courseVOById);
+    }
+
+    @Override
+    public Result<List<CourseJoinVO>> myJoinCourse() {
+        String userId = BaseContext.getCurrentId();
+        return Result.success(courseMapper.myJoinCourse(userId));
     }
 }

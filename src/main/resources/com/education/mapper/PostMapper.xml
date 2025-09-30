@@ -65,12 +65,13 @@
     <!-- 定义分页查询结果映射，只包含PostRawVO需要的字段 -->
     <resultMap id="PostRawVOResultMap" type="com.education.pojo.vo.PostRawVO">
         <!-- 帖子表字段映射 -->
-        <result column="post_id" property="id"/>
-        <result column="post_title" property="title"/>
+        <id column="post_id" property="id"/>
+        <result column="post_content" property="content"/>
         <result column="like_count" property="likeCount"/>
         <result column="comment_count" property="commentCount"/>
         <result column="forward_count" property="forwardCount"/>
         <result column="post_create_time" property="createTime"/>
+        <result column="location" property="location"/> <!-- 新增 -->
 
         <!-- 用户表字段映射 -->
         <result column="user_nickname" property="nickname"/>
@@ -78,41 +79,39 @@
 
         <!-- 关注状态字段 -->
         <result column="is_followed" property="isFollowed"/>
+
+        <!-- 一对多映射：帖子图片列表 -->
+        <collection property="images" ofType="string">
+            <id column="image" property=""/>
+        </collection>
     </resultMap>
 
     <!-- 分页查询帖子列表，使用cursor分页 -->
     <select id="pagePosts" parameterType="map" resultMap="PostRawVOResultMap">
         SELECT
         p.id AS post_id,
-        p.title AS post_title,
+        p.content AS post_content,
         p.like_count AS like_count,
         p.comment_count AS comment_count,
         p.forward_count AS forward_count,
         p.create_time AS post_create_time,
+        u.location AS location, -- 新增
         -- 用户表信息
         u.nickname AS user_nickname,
         u.avatar AS user_avatar,
-        -- 判断是否关注：存在记录则为1（已关注），否则为0
-        CASE
-        WHEN f.follower_id IS NOT NULL THEN 1
-        ELSE 0
-        END AS is_followed
-        FROM
-        edu_post p
-        LEFT JOIN
-        edu_user u ON p.user_id = u.id AND u.delete_time IS NULL
-        -- 关联关注表，条件为当前用户关注了帖子作者
-        LEFT JOIN
-        edu_follow f ON f.follower_id = #{userId} AND f.followed_id = u.id
-        WHERE
-        p.delete_time IS NULL
-        <!-- 雪花ID游标条件：如果cursor不为空，则查询小于该ID的记录 -->
+        -- 判断是否关注
+        CASE WHEN f.follower_id IS NOT NULL THEN 1 ELSE 0 END AS is_followed,
+        -- 图片 URL
+        pi.image AS image
+        FROM edu_post p
+        LEFT JOIN edu_user u ON p.user_id = u.id AND u.delete_time IS NULL
+        LEFT JOIN edu_follow f ON f.follower_id = #{userId} AND f.followed_id = u.id
+        LEFT JOIN edu_post_img pi ON pi.post_id = p.id -- 新增：关联图片表
+        WHERE p.delete_time IS NULL and p.status = 1
         <if test="cursor != null and cursor != ''">
             AND p.id &lt; #{cursor}
         </if>
-        -- 按ID降序排序，确保最新的帖子在前
         ORDER BY p.id DESC
-        -- 限制每页查询数量
         LIMIT #{pageSize}
     </select>
 

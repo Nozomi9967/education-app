@@ -1,47 +1,68 @@
 package com.education.config;
 
 import com.education.interceptor.JwtAuthenticationFilter;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import com.education.properties.JwtProperties;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import java.util.Arrays;
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
-    private final JwtProperties jwtProperties;  // 注意：@Autowired 在这里多余，构造函数注入无需添加
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
-    // 注入JWT配置属性
-    public SecurityConfig(JwtProperties jwtProperties) {
-        this.jwtProperties = jwtProperties;
+    public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter) {
+        this.jwtAuthenticationFilter = jwtAuthenticationFilter;
     }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeRequests()
-                // 放行Swagger相关路径
+        http
+                .cors().and() // 开启CORS
+                .csrf().disable() // 关闭CSRF
+                .authorizeRequests()
+                // 放行Swagger
                 .antMatchers("/swagger-ui/**", "/v3/api-docs/**", "/swagger-resources/**", "/webjars/**")
                 .permitAll()
-                // 放行注册登录接口（添加此行）
+                // 放行登录注册
                 .antMatchers("/auth/**")
                 .permitAll()
                 // 其他所有请求需要认证
-                .anyRequest().authenticated();
-
-        // 禁用CSRF（适用于API场景）
-        http.csrf().disable();
-
-        // 添加JWT过滤器到Security过滤链中，在用户名密码认证过滤器之前执行
-        http.addFilterBefore(
-                new JwtAuthenticationFilter(jwtProperties),
-                UsernamePasswordAuthenticationFilter.class
-        );
+                .anyRequest().authenticated()
+                .and()
+                // 添加JWT过滤器
+                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
+    }
+
+    /**
+     * 配置CORS跨域
+     */
+    @Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration configuration = new CorsConfiguration();
+        // 允许的前端域名
+        configuration.setAllowedOrigins(Arrays.asList("*")); // 开发环境用*，生产环境建议改成具体域名
+        // 允许的请求方法
+        configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        // 允许的请求头
+        configuration.setAllowedHeaders(Arrays.asList("*"));
+        // 是否允许携带cookie
+        configuration.setAllowCredentials(false);
+        // 预检请求的有效期（秒）
+        configuration.setMaxAge(3600L);
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", configuration);
+        return source;
     }
 }

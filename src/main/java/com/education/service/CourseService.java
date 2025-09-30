@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.education.pojo.dto.InsertCourseDTO;
 import com.education.pojo.dto.UpdateCourseDTO;
 import com.education.pojo.entity.Course;
+import com.education.pojo.vo.CourseJoinVO;
 import com.education.pojo.vo.CourseVO;
 import com.education.result.Result;
 
@@ -47,4 +48,6 @@ public interface CourseService extends IService<Course> {
     Result joinCourse(Long courseId);
 
     Result<CourseVO> getCourseVOById(Long id);
+
+    Result<List<CourseJoinVO>> myJoinCourse();
 }

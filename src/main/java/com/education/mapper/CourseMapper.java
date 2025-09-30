@@ -2,6 +2,7 @@ package com.education.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.education.pojo.entity.Course;
+import com.education.pojo.vo.CourseJoinVO;
 import com.education.pojo.vo.CourseVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -42,4 +43,6 @@ public interface CourseMapper extends BaseMapper<Course> {
     List<CourseVO> selectCourseVOByUserId(String userId);
 
     CourseVO getCourseVOById(Long id);
+
+    List<CourseJoinVO> myJoinCourse(String userId);
 }

@@ -26,7 +26,7 @@ public class BusinessConstant {
     public static final String UPDATE_NO_PERMISSION = "无权修改";
     public static final String POST_ALREADY_DELETE = "帖子已删除";
     public static final String PARAM_IS_NULL = "参数不能为空";
-    public static final String DEFAULT_PAGE_SIZE = "10";
+    public static final String DEFAULT_PAGE_SIZE = "100";
     public static final Integer MAX_PAGE_SIZE = 20;
     public static final String SYSTEM_ERROR = "系统异常，请稍后重试";
     public static final String SEARCH_FAIL = "搜索失败";

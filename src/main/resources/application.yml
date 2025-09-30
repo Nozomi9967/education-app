@@ -50,7 +50,7 @@ edu:
     # 设置jwt签名加密时使用的秘钥
     secret-key: education
     # 设置jwt过期时间
-    ttl: 720000000 # 正常为7200000
+    ttl: 7200000
     # 设置前端传递过来的令牌名称
     token-name: token
 
@@ -80,3 +80,6 @@ aliyun:
     access-key-secret: ${ALIBABA_SECRET_KEY}
     bucket-name: education-app-n
 
+
+server:
+  port: 3000

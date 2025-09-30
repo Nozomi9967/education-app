@@ -9,10 +9,7 @@ import com.education.service.VerifyCodeService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
@@ -31,6 +28,16 @@ public class AuthController {
 
     @Autowired
     private VerifyCodeService verifyCodeService;
+
+    /**
+     * 10.249.46.148  HDU-WIFI下的内网ip地址
+     * @return
+     */
+    @GetMapping("/ping")
+    @Operation(summary = "用于调试")
+    public Result ping() {
+        return Result.success("访问成功");
+    }
 
 
 

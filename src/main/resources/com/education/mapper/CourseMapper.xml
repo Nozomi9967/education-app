@@ -13,4 +13,73 @@
         where c.delete_time is null and c.id = #{id}
     </select>
 
+    <resultMap id="CourseJoinVOMap" type="com.education.pojo.vo.CourseJoinVO">
+        <id property="id" column="course_id" />
+        <result property="name" column="course_name" />
+        <result property="cover" column="course_cover" />
+        <result property="curLesson" column="cur_lesson_title" />
+        <result property="chapTitle" column="cur_chapter_title" />
+        <result property="lessonSort" column="cur_lesson_sort" />
+        <result property="progress" column="final_course_progress" />
+    </resultMap>
+
+    <select id="myJoinCourse" parameterType="java.lang.String" resultMap="CourseJoinVOMap">
+        SELECT
+            c.id AS course_id,
+            c.name AS course_name,
+            c.cover AS course_cover,
+            -- 最近学习的课时标题
+            (SELECT l.title
+             FROM edu_user_course_progress up
+                      INNER JOIN edu_course_lesson l ON l.id = up.lesson_id
+                      INNER JOIN edu_course_chapter ch ON l.chapter_id = ch.id
+             WHERE up.user_id = #{userId}
+               AND ch.course_id = c.id
+             ORDER BY up.update_time DESC
+             LIMIT 1) AS cur_lesson_title,
+            -- 最近学习的章节标题
+            (SELECT ch.title
+             FROM edu_user_course_progress up
+                      INNER JOIN edu_course_lesson l ON l.id = up.lesson_id
+                      INNER JOIN edu_course_chapter ch ON l.chapter_id = ch.id
+             WHERE up.user_id = #{userId}
+               AND ch.course_id = c.id
+             ORDER BY up.update_time DESC
+             LIMIT 1) AS cur_chapter_title,
+            -- 最近学习的课时排序号
+            (SELECT l.sort
+             FROM edu_user_course_progress up
+                      INNER JOIN edu_course_lesson l ON l.id = up.lesson_id
+                      INNER JOIN edu_course_chapter ch ON l.chapter_id = ch.id
+             WHERE up.user_id = #{userId}
+               AND ch.course_id = c.id
+             ORDER BY up.update_time DESC
+             LIMIT 1) AS cur_lesson_sort,
+            -- 进度计算：优先使用 edu_user_course.progress，否则根据已完成课时计算
+            COALESCE(
+                    NULLIF(uc.progress, 0),  -- 如果 uc.progress > 0 则使用
+            -- 计算实际进度：已完成课时数 / 总课时数 * 100
+                    (SELECT ROUND(
+                                    COUNT(DISTINCT CASE WHEN up.is_completed = 1 THEN up.lesson_id END) * 100.0 /
+                                    NULLIF(COUNT(DISTINCT l.id), 0),
+                                    0)
+                     FROM edu_course_chapter ch
+                              LEFT JOIN edu_course_lesson l ON ch.id = l.chapter_id
+                              LEFT JOIN edu_user_course_progress up
+                                        ON l.id = up.lesson_id AND up.user_id = #{userId}
+                     WHERE ch.course_id = c.id),
+                    0  -- 默认进度为0
+            ) AS final_course_progress
+        FROM
+            edu_user_course uc
+                INNER JOIN edu_course c ON uc.course_id = c.id
+        WHERE
+            uc.user_id = #{userId}
+          AND c.delete_time IS NULL
+        ORDER BY
+            uc.create_time DESC;
+    </select>
+
+
+
 </mapper>
